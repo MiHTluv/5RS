@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.item {
+    margin-top: 16px;
+    min-height: 180px;
+    background-color: orange;
+    text-align: center;
+    font-size: 40px;
+    line-height: 180px;
+    color: #fff;
+}
+
+
+.main{
+    display: flex;
+    padding: 0 32px;
+}
+
+.slider{
+    width: 300px;
+}
+
+.content1{
+    flex-grow: 1;
+    background-color: aqua;
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hiden-sliderbar {
+        display: none;
+    }
+}
+@media (max-width:739px) {
+    .hiden-sliderbar {
+        display: none;
+    }
+}
