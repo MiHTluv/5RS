@@ -1,1 +1,1 @@
-Link: https://mihtluv.github.io/5RS/
+Link: https://ntmi2k3.github.io/5RS/
